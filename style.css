@@ -1,0 +1,35 @@
+body{
+	margin: 0; padding: 0; border: 0;
+	background-image: url("front.jpg");
+	text-align: center;
+}
+
+header{
+	height 200px;
+	background-color:red;
+	width: 100%;
+	z-index: 10;
+}
+
+footer{
+	height 200px;
+	background-color:green;
+	width: 100%;
+	z-index: 10;	
+}
+h1{
+	color:black;
+	text-align:center;
+}
+table,th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: bottom;
+  background-color:green;
+  color:white;
+}
+table.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
